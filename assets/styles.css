@@ -1,0 +1,460 @@
+/* Reset general */
+body,
+h1,
+h2,
+h3,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header principal */
+.main-header {
+  background: linear-gradient(to right, #4caf50, #1e88e5);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.main-header h1 {
+  margin-bottom: 10px;
+}
+
+.main-header nav {
+  margin-top: 10px;
+}
+
+.main-header nav .btn {
+  text-decoration: none;
+  color: #fff;
+  background: #1e88e5;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 0 5px;
+  transition: background 0.3s;
+}
+
+.main-header nav .btn:hover {
+  background: #1565c0;
+}
+
+.btn-secondary {
+  background: #4caf50;
+}
+
+.btn-secondary:hover {
+  background: #388e3c;
+}
+
+/* Secțiunea Hero */
+.hero {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.hero .btn {
+  background: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.hero .btn:hover {
+  background: #388e3c;
+}
+
+/* Secțiunea Features */
+.features {
+  background: #fff;
+  padding: 40px 20px;
+}
+
+.features .feature {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.features .feature h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #4caf50;
+}
+
+.features .feature p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Mesaje de succes */
+.success {
+  background: #ccffcc;
+  color: #2e7d32;
+  padding: 10px;
+  border: 1px solid #2e7d32;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Mesaje de eroare */
+.error {
+  background: #ffcccc;
+  color: #e53935;
+  padding: 10px;
+  border: 1px solid #e53935;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Container pentru formulare */
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Formularul */
+.form-box h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Butoane */
+.btn {
+  width: 100%;
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #388e3c;
+}
+
+.btn-secondary {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #fff;
+  background: #1e88e5;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.btn-secondary:hover {
+  background: #1565c0;
+}
+
+/* Linkuri */
+.form-link {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.form-link a {
+  color: #1e88e5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.form-link a:hover {
+  text-decoration: underline;
+}
+
+/* Mesaje de eroare și succes */
+.error,
+.success {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.error {
+  background: #ffcccc;
+  color: #e53935;
+  border: 1px solid #e53935;
+}
+
+.success {
+  background: #ccffcc;
+  color: #2e7d32;
+  border: 1px solid #2e7d32;
+}
+
+/* Container Dashboard */
+.dashboard-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-container h1 {
+  text-align: center;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.dashboard-container h2 {
+  margin-top: 30px;
+  color: #333;
+}
+
+.dashboard-container p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-group input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  background: #4caf50;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #388e3c;
+}
+
+.btn-secondary {
+  background: #1e88e5;
+}
+
+.btn-secondary:hover {
+  background: #1565c0;
+}
+
+/* Header styling */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #4caf50, #388e3c);
+  color: white;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+header .toggle-bar {
+  cursor: pointer;
+  padding: 10px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #1b5e20;
+}
+
+header .nav-links {
+  display: none; /* Ascunsă inițial */
+  background: #2e7d32;
+  padding: 10px 0;
+  text-align: left;
+}
+
+header .nav-links a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+header .nav-links a:last-child {
+  border-bottom: none;
+}
+
+header .nav-links a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 4px solid #ffeb3b;
+}
+
+/* Corectarea poziționării conținutului */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.manage-database-container {
+  padding-top: 20px; /* Înălțimea header-ului + spațiu */
+}
+
+/* Header inițial */
+.hover-expand-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #4caf50, #388e3c);
+  color: white;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  height: 50px; /* Înălțime inițială */
+  transition: height 0.3s ease-in-out;
+}
+
+/* Înălțimea extinsă */
+.hover-expand-header:hover {
+  height: 250px; /* Crește înălțimea pentru a afișa toate butoanele */
+}
+
+/* Stilul titlului */
+.hover-expand-header .header-title {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 50px; /* Centrare pe înălțimea inițială */
+  padding-left: 15px;
+}
+
+/* Link-urile din meniu */
+.hover-expand-header .nav-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 15px;
+  margin-top: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  height: 0;
+  overflow: hidden;
+}
+
+/* Vizibilitate la hover */
+.hover-expand-header:hover .nav-links {
+  opacity: 1;
+  height: auto; /* Face vizibile link-urile */
+}
+
+/* Link-urile individuale */
+.hover-expand-header .nav-links a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 16px; /* Ajustează dimensiunea textului */
+  margin-bottom: 5px;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* Efect la hover pentru link-uri */
+.hover-expand-header .nav-links a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffeb3b;
+}
